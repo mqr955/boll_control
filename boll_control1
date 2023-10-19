@@ -122,8 +122,8 @@ class PID_Inc:
         return self.dcalc
 
     #pid 设置
-Pid_x = PID_Inc(0.0258, 0.00018, 0)
-Pid_y = PID_Inc(0.0258, 0.00018, 0)
+Pid_x = PID_Inc(0.0258, 0.000099, 0)
+Pid_y = PID_Inc(0.0258, 0.000099, 0)
 cnt =0
 while(flag_dw):
     clock.tick()
